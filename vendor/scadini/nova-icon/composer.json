@@ -1,0 +1,38 @@
+{
+    "name": "scadini/nova-icon",
+    "description": "A Laravel Nova icon field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "icon",
+        "field",
+        "svg"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Santos",
+            "email": "joaoecoceanus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NovaIcon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NovaIcon\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
